@@ -1,7 +1,7 @@
 """Tests for statistics functions within the Model layer."""
 
 import pandas as pd
-
+import pytest
 def test_max_mag_integers():
     # Test that max_mag function works for integers
     from lcanalyzer.models import max_mag
